@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-white;
+    font-family: 'Inter', sans-serif; /* This line is enough */
+  }
+}
+
+.glassmorphism {
+  @apply bg-gray-900/30 backdrop-blur-lg border border-white/10;
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
